@@ -1,6 +1,9 @@
 ######
 # Example from https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_gradients/py_gradients.html
+# 
+# Theory en code from https://www.learnopencv.com/
 ######
+# EXAMPLE start
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
@@ -27,3 +30,5 @@ plt.subplot(2,2,4),plt.imshow(sobely,cmap = 'gray')
 plt.title('Sobel Y'), plt.xticks([]), plt.yticks([])
 
 plt.show()
+# EXAMPLE end
+##############################
